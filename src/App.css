@@ -1,0 +1,352 @@
+/* THE BASICS */
+
+body {
+	background: #EFE5DC;
+	color: #7E583A;
+	text-align: center;
+	font-family: "Cormorant Garamond", serif;
+	font-weight: 600;
+	margin: 0px;
+}
+
+img {
+	vertical-align: middle;
+}
+
+header img, footer img, .blog-ad {
+	max-width: 100%;
+	height: auto;
+	width: auto\9;
+}
+
+/* Sets font size for "Add profile picture" */
+form {
+	font-size: 20px;
+}
+
+table {
+	font-size: 20pt;
+}
+
+article p, article span {
+	color: #36413E;
+}
+
+span {
+	margin-right: 5px;
+}
+
+/* Comment poster username */
+span b {
+	font-family: "Cedarville Cursive", cursive;
+}
+
+/* h2 is used on the sign-up and log-in pages as an instruction prompt */
+h2 {
+	color: #36413E;
+	margin: 2%;
+}
+
+/* h1, h3, and h4 are used on the blog page */
+h1, h3, h4 {
+	color: #36413E;
+}
+
+h1 {
+	font-size: 22px;
+	margin: 2%;
+}
+
+a {
+	color: #7E583A;
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+hr {
+	border: 1px solid #36413E;
+}
+
+/* Username and password input boxes on the sign-up and log-in pages */
+input {
+	font-size: 20px;
+	height: 45px;
+	width: 300px;
+	margin: 10px;
+}
+
+/* Enter buttons on the sign-up and log-in pages */
+button {
+	font-family: "Cormorant Garamond", serif;
+	background: rgb(134, 221, 134);
+	color: rgb(251, 249, 249);
+	border: None;
+	font-size: 25pt;
+	padding: 10px 25px;
+	cursor: pointer;
+}
+
+button:hover, button:active {
+	background: #36413E;
+}
+
+/* The following input and custom-file-upload code is 
+ from Josh Crozier on stackoverflow.com */
+/* Profile: https://stackoverflow.com/users/2680216/josh-crozier */
+/* Link to thread: 
+https://stackoverflow.com/questions/572768/styling-an-input-type-file-button */
+/* Link to jsfiddle code: http://jsfiddle.net/4cwpLvae/ */
+input[type = "file"] {
+  display: none;
+}
+
+/* CLASSES */
+
+.custom-file-upload {
+	display: inline-block;
+	color: #7E583A;
+	cursor: pointer;
+}
+
+.text-button {
+	color: #7E583A;
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+/* This centers the blog posts. */
+.center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	/* width: 50%; */
+	/* border: 10px solid red; */
+}
+
+/* Styles the director's precious emojis */
+img.emoji {
+	/* Since we are using SVGs, you have to change the width using CSS */
+	width: 1.3em;
+
+	/* 
+	This is to make the emojis feel like actual emojis to 
+	the user and they won't act like images. This makes the emojis
+	non-reactive to any mouse events such as dragging, 
+	hovering, clicking etc. Makes it feel like its actual text.
+	*/
+	pointer-events: none; 
+}
+
+.error {
+	color: red;
+	font-size: 14pt;
+}
+
+.upload-message {
+	font-weight: lighter;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.nav {
+	background: #EFE5DC;
+	position: fixed;
+	left: 50%;
+	transform: translateX(-50%);
+	width: 100%;
+}
+
+/* This just makes the "Posted by" a little larger. */
+.blog-poster-tag {
+	font-family: "Cedarville Cursive", cursive;
+	font-size: 27px;
+	margin-bottom: 0px;
+	padding: 5px;
+	text-align: center;
+}
+
+.post-photo {
+	border: 2.5px solid #36413E;
+}
+
+.reaction-section {
+	vertical-align: middle;
+	display: inline-block;
+	margin: 0 15px 0 0;
+	font-family: "Cormorant Garamond", serif;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 100%;
+	text-align: left;
+}
+
+/* These style the reaction buttons. */
+.reaction {
+ 	display: flex;
+  	align-items: center;
+	padding: 0;
+	margin: 4px 0;
+	background: rgba(255, 255, 255, 0);
+	cursor: pointer;
+}
+
+.reaction .twemoji {
+	display: inline;
+	padding: 6px;
+	margin: 0;
+	border-radius: 100%;
+} 
+
+.reaction .twemoji img {
+	display: block;
+	width: 36px;
+	height: 36px;
+} 
+
+.reaction .number {
+	margin: 0 0 4px 8px;
+}
+
+.reaction:hover .twemoji, .reaction.selected .twemoji {
+	background: rgba(0, 0, 0, 0.1);;
+}
+
+.reaction:hover .number, .reaction.selected .number {
+	font-weight: 700;
+	color: #000000;
+}
+
+/* This makes the comment section align left. */
+.comment-section {
+	text-align: left;
+	font-size: 20px;
+}
+
+.comment-upload {
+	display: flex;
+	max-width: 100%;
+	text-align: left;
+	font-size: 18.5px;
+	vertical-align: middle;
+}
+
+/* This adds a hanging indent to comments that go over one line. */
+.comment {
+	display: flex;
+	margin-right: 5px;
+	margin-bottom: 5px;
+	font-weight: 400;
+	line-height: 1.2;
+}
+
+/* This adjusts the size of the comment box. */
+.commentbox {
+	font-size: 16px;
+	height: 35px;
+	margin: auto;
+	vertical-align: middle;
+}
+
+/* This adjusts the size of the comment submit button. */
+.comment-submit {
+	background: rgb(134, 221, 134);
+	color: rgb(251, 249, 249);
+	border: None;
+	/* border-radius: 4px; */
+	font-size: 18px;
+	padding: 10px 18px;
+	cursor: pointer;
+	vertical-align: middle;
+}
+
+/* .line-break{
+	min-width:100%
+} */
+
+.redirect {
+	font-size: 14pt;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+/* Because the unpublish button on the admin page needed to be different colors
+ from the other buttons */
+.unpublish-button  {
+	background: rgb(242, 86, 86);
+	color: rgb(251, 249, 249);
+	border: None;
+	font-size: 25pt;
+	padding: 10px 25px;
+	cursor: pointer;
+}
+
+.unpublish-button:hover, .unpublish-button:active {
+	background: rgb(255, 0, 0);
+}
+
+/* The following code that wraps comments and prevents them from going off screen
+ is from Rahul on stackoverflow.com */
+/* Profile: https://stackoverflow.com/users/6556397/rahul */
+/* Link to thread: 
+https://stackoverflow.com/questions/3247358/how-do-i-wrap-text-with-no-whitespace-inside-a-td */
+.dont-break-out {
+
+	/* These are technically the same, but use both */
+	overflow-wrap: break-word;
+	word-wrap: break-word;
+
+	-ms-word-break: break-all;
+	/* This is the dangerous one in WebKit, as it breaks things wherever */
+	word-break: break-all;
+	/* Instead use this non-standard one: */
+	word-break: break-word;
+
+	/* Adds a hyphen where the word breaks, if supported (No Blink) */
+	-ms-hyphens: auto;
+	-moz-hyphens: auto;
+	-webkit-hyphens: auto;
+	hyphens: auto;
+}
+
+.profile-pic {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 85px;
+	height: 85px;
+	border-radius: 50%;
+}
+
+.feed-profile-pictures {
+	border-radius: 50%;
+	vertical-align: middle;
+}
+
+.profile-pic-container {
+	display: inline-block;
+	position: relative;
+	width: 85px;
+	height: 85px;
+	border-radius: 50%;
+	overflow: hidden;
+}
+
+.profile-pic-spinner {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 85px;
+	height: 85px;
+	background-color: rgba(255, 255, 255, 1);
+	background-image: url('../public/assets/images/loader.gif');
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: 65%;
+}
+
+.post-reaction-container {
+	display: flex;
+	/* overflow-x: hidden; */
+	align-items: center;
+	justify-content: center;
+}

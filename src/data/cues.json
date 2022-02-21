@@ -1,0 +1,55 @@
+{
+    "cue-list":
+    [
+        {
+            "no": 1,
+            "visiblePostList": ["post-1"],
+            "scrollToPost": "post-1"
+        },
+        {
+            "no": 2,
+            "visiblePostList": ["post-2", "post-1"],
+            "scrollToPost": "post-2"
+        },
+        {
+            "no": 3,
+            "visiblePostList": ["post-3", "post-2", "post-1"],
+            "scrollToPost": "post-3"
+        },
+        {
+            "no": 4,
+            "visiblePostList": ["post-4", "post-3", "post-2", "post-1"],
+            "scrollToPost": "post-4"
+        },
+        {
+            "no": 5,
+            "visiblePostList": ["post-5", "post-4", "post-3", "post-2", "post-1"],
+            "scrollToPost": "post-5"
+        },
+        {
+            "no": 6,
+            "visiblePostList": ["post-6", "post-5", "post-4", "post-3", "post-2", "post-1"],
+            "scrollToPost": "post-6"
+        },
+        {
+            "no": 7,
+            "visiblePostList": ["post-7", "post-6", "post-5", "post-4", "post-3", "post-2", "post-1"],
+            "scrollToPost": "post-7"
+        },
+        {
+            "no": 8,
+            "visiblePostList": ["post-8", "post-7", "post-6", "post-5", "post-4", "post-3", "post-2", "post-1"],
+            "scrollToPost": "post-8"
+        },
+        {
+            "no": 9,
+            "visiblePostList": ["post-9", "post-8", "post-7", "post-6", "post-5", "post-4", "post-3", "post-2", "post-1"],
+            "scrollToPost": "post-9"
+        },
+        {
+            "no": 10,
+            "visiblePostList": ["post-10", "post-9", "post-8", "post-7", "post-6", "post-5", "post-4", "post-3", "post-2", "post-1"],
+            "scrollToPost": "post-10"
+        }
+    ]
+}

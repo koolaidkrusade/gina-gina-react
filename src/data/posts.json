@@ -1,0 +1,336 @@
+{
+    "posts": 
+    {
+        "post-1":
+        {
+            "ad": "assets/images/ad-1-9.png",
+            "postName": "pg1",
+            
+            "poster": "@ginagina",
+            "posterProfilePicture": "assets/images/default-profile.png",
+
+            "caption": "Tune into ‘Gina Gina’ and come ready for this week's podcast! ☕️🐸  #barry&myplaycousin #fuckthatorangegoon",
+            "image": "assets/images/demo-post.png",
+
+            "sad-num": 0,
+            "confused-num": 0,
+            "angry-num": 0,
+            "laughing-num": 0,
+            "heart-num": 0,
+            "yum-num": 0,
+            "fist-num": 0,
+            
+            "comments":
+            [
+                {
+                    "commenter-profile": "assets/images/default-profile.png",
+                    "commenter-user": "unibrowsunite",
+                    "comment": "Girl, yo cheesy podcast is tierra whack asf."
+                },
+                {
+                    "commenter-profile": "assets/images/default-profile.png",
+                    "commenter-user": "reedfoster",
+                    "comment": "you so fine 👅-- lemme get at yo perfect self"
+                }
+            ]
+        },
+        "post-2":
+        {
+            "ad": "assets/images/ad-2-7.gif",
+            "postName": "pg3",
+            
+            "poster": "@ginagina",
+            "posterProfilePicture": "assets/images/default-profile.png",
+
+            "caption": "REST IN POWER KING!👑🙏🏽",
+            "image": "assets/images/post-2.png",
+
+            "sad-num": 0,
+            "confused-num": 0,
+            "angry-num": 0,
+            "laughing-num": 0,
+            "heart-num": 0,
+            "yum-num": 0,
+            "fist-num": 0,
+            
+            "comments":
+            [
+                {
+                    "commenter-profile": "assets/images/default-profile.png",
+                    "commenter-user": "donnariley",
+                    "comment": "Gone too soon 💐 Thank you for spreading"
+                },
+                {
+                    "commenter-profile": "assets/images/default-profile.png",
+                    "commenter-user": "cookinwithcheryl",
+                    "comment": "Yet another one of us to fight for. When will this end?"
+                }
+            ]
+        },
+        "post-3":
+        {
+            "ad": "assets/images/ad-3-10.gif",
+            "postName": "pg14",
+            
+            "poster": "@ginagina",
+            "posterProfilePicture": "assets/images/default-profile.png",
+
+            "caption": "Yall, ya girl needs some more artwork, it seems like one of my pieces went missing 😒 ... drop some of your favorite Black artists down below❗️ #darktimes #grubhubgetyourshittogether",
+            "image": "assets/images/demo-post.png",
+
+            "sad-num": 0,
+            "confused-num": 0,
+            "angry-num": 0,
+            "laughing-num": 0,
+            "heart-num": 0,
+            "yum-num": 0,
+            "fist-num": 0,
+            
+            "comments":
+            [
+                {
+                    "commenter-profile": "assets/images/default-profile.png",
+                    "commenter-user": "wyattquaid",
+                    "comment": "The Black Artist Collective is a great place. Non-profit that needs help!"
+                },
+                {
+                    "commenter-profile": "assets/images/default-profile.png",
+                    "commenter-user": "whitneyfrance",
+                    "comment": "Who robbed you? Swear we can’t have nothing."
+                }
+            ]
+        },
+        "post-4":
+        {
+            "ad": "assets/images/ad-4.png",
+            "postName": "pg27",
+            
+            "poster": "@ginagina",
+            "posterProfilePicture": "assets/images/default-profile.png",
+
+            "caption": "Volunteer work is required to better the lives of our community. Working hard or hardly working 🤔, either way ya girl is TIRED!!! Exciting things coming soon 👀!",
+            "image": "assets/images/demo-post.png",
+
+            "sad-num": 0,
+            "confused-num": 0,
+            "angry-num": 0,
+            "laughing-num": 0,
+            "heart-num": 0,
+            "yum-num": 0,
+            "fist-num": 0,
+            
+            "comments":
+            [
+                {
+                    "commenter-profile": "assets/images/default-profile.png",
+                    "commenter-user": "zionchurch",
+                    "comment": "The drive is still open till 9pm -- Bring what you can!"
+                },
+                {
+                    "commenter-profile": "assets/images/default-profile.png",
+                    "commenter-user": "graceoput",
+                    "comment": "I was there all day and didn’t see you there………"
+                },
+                {
+                    "commenter-profile": "assets/images/default-profile.png",
+                    "commenter-user": "graceoput",
+                    "comment": "Looks like you ain’t responding now?......."
+                }
+            ]
+        },
+        "post-5":
+        {
+            "ad": "assets/images/ad-5.gif",
+            "postName": "pg61",
+            
+            "poster": "@ginagina",
+            "posterProfilePicture": "assets/images/default-profile.png",
+
+            "caption": "What a blessing to have a sound mind body and soul….Find the inner peace, because nothing is peaceful out in these streets.🧘🏿‍♀️",
+            "image": "assets/images/demo-post.png",
+
+            "sad-num": 0,
+            "confused-num": 0,
+            "angry-num": 0,
+            "laughing-num": 0,
+            "heart-num": 0,
+            "yum-num": 0,
+            "fist-num": 0,
+            
+            "comments":
+            [
+                {
+                    "commenter-profile": "assets/images/default-profile.png",
+                    "commenter-user": "ginagina",
+                    "comment": "All negative comments will be deleted from now on! 🧚🏾‍♀️"
+                }
+            ]
+        },
+        "post-6":
+        {
+            "ad": "assets/images/ad-6.gif",
+            "postName": "pg56",
+            
+            "poster": "@ginagina",
+            "posterProfilePicture": "assets/images/default-profile.png",
+
+            "caption": "Wasn’t I just the cutest?! What are y’all doing to honor your inner child today ?✌🏿🖤 #BlackGirlMagic🌟",
+            "image": "assets/images/demo-post.png",
+
+            "sad-num": 0,
+            "confused-num": 0,
+            "angry-num": 0,
+            "laughing-num": 0,
+            "heart-num": 0,
+            "yum-num": 0,
+            "fist-num": 0,
+            
+            "comments":
+            [
+                {
+                    "commenter-profile": "assets/images/default-profile.png",
+                    "commenter-user": "gretauni",
+                    "comment": "ADORABLE"
+                },
+                {
+                    "commenter-profile": "assets/images/default-profile.png",
+                    "commenter-user": "elizadran",
+                    "comment": "Look at that hair!"
+                },
+                {
+                    "commenter-profile": "assets/images/default-profile.png",
+                    "commenter-user": "xeiuhn",
+                    "comment": "Black Girl Magic is too real."
+                }
+            ]
+        },
+        "post-7":
+        {
+            "ad": "assets/images/ad-2-7.gif",
+            "postName": "pg43",
+            
+            "poster": "@ginagina",
+            "posterProfilePicture": "assets/images/default-profile.png",
+
+            "caption": "So good to get out of the house for a bit ☀️🕶! #enojyingthebirds #chirpchirp",
+            "image": "assets/images/demo-post.png",
+
+            "sad-num": 0,
+            "confused-num": 0,
+            "angry-num": 0,
+            "laughing-num": 0,
+            "heart-num": 0,
+            "yum-num": 0,
+            "fist-num": 0,
+            
+            "comments":
+            [
+                {
+                    "commenter-profile": "assets/images/default-profile.png",
+                    "commenter-user": "easteryern",
+                    "comment": "I love snow with sun. The devil sure is beating his wife."
+                },
+                {
+                    "commenter-profile": "assets/images/default-profile.png",
+                    "commenter-user": "veronicaflash",
+                    "comment": "You're living right. I see that street!"
+                }
+            ]
+        },
+        "post-8":
+        {
+            "ad": "assets/images/ad-0-8.png",
+            "postName": "pg62",
+            
+            "poster": "@ginagina",
+            "posterProfilePicture": "assets/images/default-profile.png",
+
+            "caption": "Hope to see you all at the Rally next week! #Justice4VisanderDavis",
+            "image": "assets/images/post-8.png",
+
+            "sad-num": 0,
+            "confused-num": 0,
+            "angry-num": 0,
+            "laughing-num": 0,
+            "heart-num": 0,
+            "yum-num": 0,
+            "fist-num": 0,
+            
+            "comments":
+            [
+                {
+                    "commenter-profile": "assets/images/default-profile.png",
+                    "commenter-user": "linda4revolution",
+                    "comment": "Where are we meeting"
+                },
+                {
+                    "commenter-profile": "assets/images/default-profile.png",
+                    "commenter-user": "ginagina",
+                    "comment": "All details can be found under the Action! Tab 💕💕💕"
+                },
+                {
+                    "commenter-profile": "assets/images/default-profile.png",
+                    "commenter-user": "helenytiger",
+                    "comment": "Will we be missing you though? I see you organizes these, but not showing up?"
+                }
+            ]
+        },
+        "post-9":
+        {
+            "ad": "assets/images/ad-1-9.png",
+            "postName": "pg66",
+            
+            "poster": "@ginagina",
+            "posterProfilePicture": "assets/images/default-profile.png",
+
+            "caption": "Sunday in the park with Dru🎶 Yall know I love me some Sondheim 😝🤫",
+            "image": "assets/images/demo-post.png",
+
+            "sad-num": 0,
+            "confused-num": 0,
+            "angry-num": 0,
+            "laughing-num": 0,
+            "heart-num": 0,
+            "yum-num": 0,
+            "fist-num": 0,
+            
+            "comments":
+            [
+                {
+                    "commenter-profile": "assets/images/default-profile.png",
+                    "commenter-user": "ginagina",
+                    "comment": "All negative comments will be deleted! 🧚🏾‍♀️"
+                }
+            ]
+        },
+        "post-10":
+        {
+            "ad": "assets/images/ad-3-10.gif",
+            "postName": "pg72",
+            
+            "poster": "@ginagina",
+            "posterProfilePicture": "assets/images/default-profile.png",
+
+            "caption": "Taking a break from social media. Focusing on listening to the sounds on the street of my neighborhood on this beautiful morning. I love you Chicago! 🖤",
+            "image": "assets/images/demo-post.png",
+
+            "sad-num": 0,
+            "confused-num": 0,
+            "angry-num": 0,
+            "laughing-num": 0,
+            "heart-num": 0,
+            "yum-num": 0,
+            "fist-num": 0,
+            
+            "comments":
+            [
+                {
+                    "commenter-profile": "assets/images/default-profile.png",
+                    "commenter-user": "ginagina",
+                    "comment": "All negative comments will be deleted! 🧚🏾‍♀️"
+                }
+            ]
+        }
+    }
+}
+        
