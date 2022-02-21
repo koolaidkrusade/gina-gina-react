@@ -50,7 +50,7 @@ export default function Login(props) {
             <h2>Log in to access and interact with Gina Gina blog content.</h2>
             {errorMessage !== '' ? (<p className='error'>{errorMessage}</p>) : null}
             <br/>
-            <form>
+            <div className='auth-form'>
                 <input
                     id='username'
                     name='username'
@@ -58,18 +58,20 @@ export default function Login(props) {
                     placeholder='Username'
                     value={userName || ''}
                     onChange={(e) => setUserName(e.target.value)}
+                    className='auth-input'
                 ></input>
                 <br/>
                 <input
                     id='password'
                     name='password'
                     type='password'
-                    placeholder = 'Password'
+                    placeholder='Password'
                     value={userPassword || ''}
                     onChange={(e) => setUserPassword(e.target.value)}
+                    className='auth-input'
                 ></input>
                 <br/><br/>
-            </form>
+            </div>
             
             {hasFilled && !isLoading && !props.currentUser ? (
                 <button onClick={handleLogin}>→</button>

@@ -19,6 +19,10 @@ header img, footer img, .blog-ad {
 	width: auto\9;
 }
 
+.blog-ad {
+	margin-top: 64px;
+}
+
 /* Sets font size for "Add profile picture" */
 form {
 	font-size: 20px;
@@ -165,8 +169,17 @@ img.emoji {
 	text-align: center;
 }
 
+.post-photo-container {
+	max-width: 250px;
+	width: 100%;
+}
+
 .post-photo {
+	max-width: 250px;
+	width: 100%;
+	height: auto;
 	border: 2.5px solid #36413E;
+	box-sizing: border-box;
 }
 
 .reaction-section {
@@ -185,7 +198,7 @@ img.emoji {
  	display: flex;
   	align-items: center;
 	padding: 0;
-	margin: 4px 0;
+	margin: 2px 0;
 	background: rgba(255, 255, 255, 0);
 	cursor: pointer;
 }
@@ -223,11 +236,15 @@ img.emoji {
 }
 
 .comment-upload {
+	width: 100%;
 	display: flex;
-	max-width: 100%;
-	text-align: left;
+	flex-direction: row;
+	align-items: center;
+	gap: 5px;
+	margin: 10px 0 0 0;
+	padding: 0 5px;
 	font-size: 18.5px;
-	vertical-align: middle;
+	box-sizing: border-box;
 }
 
 /* This adds a hanging indent to comments that go over one line. */
@@ -242,9 +259,12 @@ img.emoji {
 /* This adjusts the size of the comment box. */
 .commentbox {
 	font-size: 16px;
-	height: 35px;
-	margin: auto;
-	vertical-align: middle;
+	width: 100%;
+	height: 42px;
+	margin: 0;
+	padding: 0 10px;
+	border: solid 1px lightgrey;
+	box-sizing: border-box;
 }
 
 /* This adjusts the size of the comment submit button. */
@@ -345,7 +365,40 @@ https://stackoverflow.com/questions/3247358/how-do-i-wrap-text-with-no-whitespac
 
 .post-reaction-container {
 	display: flex;
-	/* overflow-x: hidden; */
+	flex-direction: row;
 	align-items: center;
 	justify-content: center;
+	width: 100%;
+	padding: 5px 0 5px 5px;
+	box-sizing: border-box;
+}
+
+.feeds-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+.feeds {
+	width: 100%;
+	max-width: 650px;
+	box-sizing: border-box;
+}
+
+.auth-form {
+	max-width: 100%;
+	padding: 5px;
+}
+
+.auth-input {
+    max-width: 300px;
+    width: 100%;
+	margin-left: 0;
+	margin-right: 0;
+	padding: 0 10px;
+    border: solid 1px lightgrey;
+	box-sizing: border-box;
 }

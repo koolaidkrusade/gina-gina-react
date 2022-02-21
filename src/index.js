@@ -3,6 +3,9 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+// import { polyfill } from "seamless-scroll-polyfill";
+
+// polyfill();
 
 ReactDOM.render(
 	<React.StrictMode>

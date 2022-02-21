@@ -105,7 +105,7 @@ export default function Signup(props) {
             
             <br/>
             {/* Sign-up form, once completed takes you to the blog --> */}
-            <form>
+            <div className='auth-form'>
                 {/* Profile picture upload */}
                 {photoURL === defaultPhotoURL ?
                     <label className='custom-file-upload'>
@@ -128,6 +128,7 @@ export default function Signup(props) {
                     placeholder='Username'
                     value={userName || ''}
                     onChange={(e) => setUserName(e.target.value)}
+                    className='auth-input'
                 />
                 <br/>
                 <input
@@ -137,6 +138,7 @@ export default function Signup(props) {
                     placeholder='Password'
                     value={userPassword || ''}
                     onChange={(e) => setUserPassword(e.target.value)}
+                    className='auth-input'
                 />
                 <br/>
                 <input
@@ -146,8 +148,9 @@ export default function Signup(props) {
                     placeholder='Confirm Password' 
                     value={userConfirmedPassword || ''}
                     onChange={(e) => setUserConfirmedPassword(e.target.value)}
+                    className='auth-input'
                 />
-            </form>
+            </div>
             <br/> <br/>
             {hasFilled && !isLoading && !props.currentUser ? (
                 <button onClick={checkLogin}>→</button>

@@ -48,7 +48,6 @@ export default function Post(props) {
 
     return(
         <article className='center'>
-            <br/>
             {/* Gina's header ad */}
             <img
                 src={props.data.ad}
@@ -82,13 +81,13 @@ export default function Post(props) {
                     postName={props.postName}
                 />
                 {/* Image in the post */}
-                <img
-                    src={props.data.image}
-                    className='post-photo'
-                    alt='Gina'
-                    width='250'
-                    height='350'
-                />
+                <div className='post-photo-container'>
+                    <img
+                        src={props.data.image}
+                        className='post-photo'
+                        alt='Gina'
+                    />
+                </div>
             </div>
 
             <hr/>
@@ -121,18 +120,14 @@ export default function Post(props) {
                             />
                         )) : null
                 }
-                <br/>
-                </div>
-                
-                <div className="comment-upload">
-                <Composer
-                    userName={props.currentUserData ?
-                        props.currentUserData.userName : 'user'}
-                    profilePicture={props.currentUserData ?
-                        props.currentUserData.profilePicture : 'assets/images/default-profile.png'}
-                    submit={handleSubmit}
-                />
-                </div>
+            </div>
+            <Composer
+                userName={props.currentUserData ?
+                    props.currentUserData.userName : 'user'}
+                profilePicture={props.currentUserData ?
+                    props.currentUserData.profilePicture : 'assets/images/default-profile.png'}
+                submit={handleSubmit}
+            />
 
         {/* Above ends the comment section. */}
         </article>
@@ -218,35 +213,27 @@ function Composer(props) {
     }
 
     return(
-        <Fragment>
-            {/* This is the form for submitting a comment. */}
-            {/* Space */}
-            <span></span>
-            <div className="comment-upload">
-                <img className="feed-profile-pictures"
-                    src={props.profilePicture}
-                    alt='Your profile'
-                    width='35'
-                    height='35'
-                />
-                {/* Space */}
-                <span></span>
-                <input
-                    className='commentbox'
-                    name='comment'
-                    type='text' 
-                    placeholder = {'Add a comment as ' + props.userName + '...'}
-                    value={comment || ''}
-                    onChange={(e) => setComment(e.target.value)}
-                />
-                {/* One space between input and button */}
-                <span></span>
-                <button
-                    className='comment-submit'
-                    onClick={handleSubmit}
-                    type = 'submit'> → </button>
-                <span> </span>
-            </div>
-        </Fragment>
+        <div className="comment-upload">
+            <img className="feed-profile-pictures"
+                src={props.profilePicture}
+                alt='Your profile'
+                width='35'
+                height='35'
+            />
+            <input
+                className='commentbox'
+                name='comment'
+                type='text' 
+                placeholder = {'Add a comment as ' + props.userName + '...'}
+                value={comment || ''}
+                onChange={(e) => setComment(e.target.value)}
+            />
+            <button
+                className='comment-submit'
+                onClick={handleSubmit}
+                type = 'submit'>
+                →
+            </button>
+        </div>
     )
 }

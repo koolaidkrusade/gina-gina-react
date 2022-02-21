@@ -55,6 +55,10 @@ export function useAuth() {
 	return currentUser;
 }
 
+export function writeCurrentCue(cue) {
+	set(databaseRef(database, 'public/currentCue'), cue);
+}
+
 export function writeUserData(uid, userName, photoURL) {
 	set(databaseRef(database, 'users/' + uid), {
 		userName: userName,
@@ -85,8 +89,8 @@ export function writeUserReactions(postName, userUID, updateReaction, currentRea
 	}
 }
 
-export function writePostList(postList) {
-	set(databaseRef(database, 'public/postList'), postList);
+export function resetAllPostData() {
+	set(databaseRef(database, 'public/posts/'), {} );
 }
 
 export function writeComment(postName, userUID, comment) {
@@ -120,10 +124,14 @@ export async function upload(file, setPhotoURL, setIsLoading, setIsUploading) {
 		await uploadBytes(fileRef, compressedFile);
 		const photoURL = await getDownloadURL(fileRef);
 		setPhotoURL(photoURL);
+		const timer = setTimeout(() => {
+			setIsUploading(false);
+			setIsLoading(false);
+		}, 1000);
+		return () => clearTimeout(timer);
 	} catch (error) {
 		console.log(error);
+		setIsUploading(false);
+		setIsLoading(false);
 	}
-	
-	setIsUploading(false);
-	setIsLoading(false);
 }

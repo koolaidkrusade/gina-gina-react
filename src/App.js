@@ -67,6 +67,9 @@ export default function App() {
                 output = (<Operation
                     changePage={changePage}
                     logout={handleLogout}
+                    currentCue={currentCue}
+                    setCurrentCue={setCurrentCue}
+                    cueList={cueData['cue-list']}
                 />);
             } else if(currentUserData.role === 'audience') {
                 if(page === 'quote') { 

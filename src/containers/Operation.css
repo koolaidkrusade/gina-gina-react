@@ -1,0 +1,62 @@
+.op-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 60vh;
+    min-height: 400px;
+    box-sizing: border-box;
+}
+
+.op-panel {
+    max-width: 600px;
+    width: 100%;
+    height: 100%;
+    padding: 25px 15px;
+    box-sizing: border-box;
+}
+
+.cue-info {
+    font-size: 20px;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    margin: 25px 0 100px 0;
+}
+
+.go-button {
+    height: 80px;
+    flex-grow: 99;
+    font-size: 20pt;
+    font-weight: 700;
+}
+
+.go-button:hover {
+    background: darkgreen;
+}
+
+.back-button {
+    height: 80px;
+    flex-grow: 1;
+    background: none;
+	font-size: 20pt;
+    font-weight: 700;
+    background: rgb(242, 86, 86);
+	color: rgb(251, 249, 249);
+}
+
+.back-button:hover {
+    background: rgb(255, 0, 0);
+}
+
+.disabled {
+    background-color: gray !important;
+    cursor: default !important;
+}
+
+.text-button {
+    margin-top: 15px;
+}
