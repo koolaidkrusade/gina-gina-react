@@ -29,21 +29,20 @@ export default function Signup(props) {
         return () => clearTimeout(timer);
     }
 
-    const confirmPassword = () => {
-        if(userPassword !== '') {
-            if (userPassword !== userConfirmedPassword) {
-                setErrorMessage('Those passwords didn\'t match. Please try again.');
-            } else {
-                handleSignUp();
-            }
-        }
-    }
+    const checkLogin = () => {
+        // var specialRegex = "/[a-z0-9]/"
+        // if (specialRegex.test(userName) === true) {
+        //     setErrorMessage('Usernames cannot include special characters.');
 
-    const checkLength = () => {
         if (userName.length > 20) {
             setErrorMessage('Usernames cannot exceed 20 characters.');
+        
+        } else if(userPassword !== '') {
+            if (userPassword !== userConfirmedPassword) {
+                setErrorMessage('Those passwords didn\'t match. Please try again.');
         } else {
-            handleSignUp();
+             handleSignUp();
+            }
         }
     }
 
@@ -151,7 +150,7 @@ export default function Signup(props) {
             </form>
             <br/> <br/>
             {hasFilled && !isLoading && !props.currentUser ? (
-                <button onClick={checkLength, confirmPassword}>→</button>
+                <button onClick={checkLogin}>→</button>
             ) : (
                 <button disabled style={{background: 'gray', cursor: 'default'}}>→</button>
             )} <br/><br/>

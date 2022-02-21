@@ -312,8 +312,7 @@ https://stackoverflow.com/questions/3247358/how-do-i-wrap-text-with-no-whitespac
 	position: absolute;
 	left: 0px;
 	top: 0px;
-	width: 85px;
-	height: 85px;
+	object-fit: cover;
 	border-radius: 50%;
 }
 
